@@ -1,0 +1,563 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_COXREGR.R:156
+msgid "The active dataset must have a name if creating new datasets"
+msgstr ""
+"如果要创建新的数据集，活动数据集必须具有名称"
+
+#: STATS_COXREGR.R:160
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"一个或多个指定的输出数据集名称已在使用中"
+
+#: STATS_COXREGR.R:189
+#: STATS_COXREGR.R:363
+#: STATS_COXREGR.R:489
+msgid "Cox Regression"
+msgstr ""
+"Cox 回归"
+
+#: STATS_COXREGR.R:190
+msgid "Cox Regression: Warnings"
+msgstr ""
+"Cox 回归：警告"
+
+#: STATS_COXREGR.R:197
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"需要 R %s 程序包，但未能将其装入。"
+
+#: STATS_COXREGR.R:201
+msgid "At least one independent variable must be specified"
+msgstr ""
+"必须至少指定一个自变量"
+
+#: STATS_COXREGR.R:204
+msgid "Two time variables are required for interval censoring"
+msgstr ""
+"区间检剔需要两个时间变量"
+
+#: STATS_COXREGR.R:208
+msgid "An output dataset was specified without any residual or prediction specifications"
+msgstr ""
+"指定了输出数据集，但未指定任何残差或预测"
+
+#: STATS_COXREGR.R:213
+msgid "Residuals or predicted values were specified but no dataset name was given"
+msgstr ""
+"指定了残差或预测值，但未提供数据集名称"
+
+#: STATS_COXREGR.R:222
+msgid "The same variable cannot appear in both the independents and strata lists"
+msgstr ""
+"同一变量不能同时出现在独立项和层列表中"
+
+#: STATS_COXREGR.R:229
+msgid "The event and time variables must have a scale measurement level"
+msgstr ""
+"事件和时间变量必须具有标度测量级别"
+
+#: STATS_COXREGR.R:233
+msgid "Strata variables must be categorical: %s"
+msgstr ""
+"分层变量必须是分类变量：%s"
+
+#: STATS_COXREGR.R:296
+msgid "Survival"
+msgstr ""
+"生存"
+
+#: STATS_COXREGR.R:302
+msgid "Survival Values (First %s Cases)"
+msgstr ""
+"生存值（前 %s 个个案）"
+
+#: STATS_COXREGR.R:304
+msgid "+ indicates that the event did not occur"
+msgstr ""
+"+ 指示事件未发生"
+
+#: STATS_COXREGR.R:330
+msgid "A list of time variables does not have a corresponding function"
+msgstr ""
+"时间变量列表没有相应的函数"
+
+#: STATS_COXREGR.R:365
+msgid "Event Variable"
+msgstr ""
+"事件变量"
+
+#: STATS_COXREGR.R:366
+msgid "Censoring Type"
+msgstr ""
+"检剔类型"
+
+#: STATS_COXREGR.R:367
+msgid "Time"
+msgstr ""
+"时间"
+
+#: STATS_COXREGR.R:368
+msgid "Time2"
+msgstr ""
+"时间 2"
+
+#: STATS_COXREGR.R:369
+msgid "Strata"
+msgstr ""
+"层"
+
+#: STATS_COXREGR.R:370
+msgid "Cluster"
+msgstr ""
+"聚类"
+
+#: STATS_COXREGR.R:371
+msgid "Ties"
+msgstr ""
+"绑定值"
+
+#: STATS_COXREGR.R:372
+msgid "Output Dataset"
+msgstr ""
+"输出数据集"
+
+#: STATS_COXREGR.R:373
+msgid "Prediction Reference"
+msgstr ""
+"预测参考"
+
+#: STATS_COXREGR.R:374
+msgid "Missing Values Treatment"
+msgstr ""
+"缺失值处理"
+
+#: STATS_COXREGR.R:375
+msgid "Number of Cases"
+msgstr ""
+"个案数"
+
+#: STATS_COXREGR.R:376
+msgid "Missing Value Deletion"
+msgstr ""
+"缺失值删除"
+
+#: STATS_COXREGR.R:377
+msgid "Number of Events"
+msgstr ""
+"事件数"
+
+#: STATS_COXREGR.R:378
+msgid "Number of Iterations"
+msgstr ""
+"迭代次数"
+
+#: STATS_COXREGR.R:379
+msgid "Log Likelihood (Initial)"
+msgstr ""
+"对数似然（初始）"
+
+#: STATS_COXREGR.R:380
+msgid "Log Likelihood (Final)"
+msgstr ""
+"对数似然（最终）"
+
+#: STATS_COXREGR.R:381
+msgid "Likelihood Ratio Test"
+msgstr ""
+"似然比检验"
+
+#: STATS_COXREGR.R:382
+msgid "LR Degrees of Freedom"
+msgstr ""
+"LR 自由度"
+
+#: STATS_COXREGR.R:383
+msgid "LR Sig"
+msgstr ""
+"LR 显著性"
+
+#: STATS_COXREGR.R:384
+msgid "Wald Test"
+msgstr ""
+"瓦尔德检验"
+
+#: STATS_COXREGR.R:385
+msgid "Wald Degrees of Freedom"
+msgstr ""
+"瓦尔德自由度"
+
+#: STATS_COXREGR.R:386
+msgid "Wald Sig"
+msgstr ""
+"瓦尔德显著性"
+
+#: STATS_COXREGR.R:387
+msgid "Score (Logrank) Test"
+msgstr ""
+"得分 (Logrank) 检验"
+
+#: STATS_COXREGR.R:388
+msgid "Score Degrees of Freedom"
+msgstr ""
+"得分自由度"
+
+#: STATS_COXREGR.R:389
+msgid "Score Sig"
+msgstr ""
+"得分显著性"
+
+#: STATS_COXREGR.R:390
+msgid "R Squared"
+msgstr ""
+"R 方"
+
+#: STATS_COXREGR.R:391
+msgid "Maximum Possible Rsq"
+msgstr ""
+"最大可能 R 方"
+
+#: STATS_COXREGR.R:392
+msgid "Concordance"
+msgstr ""
+"协同"
+
+#: STATS_COXREGR.R:393
+msgid "Concordance Std. Error"
+msgstr ""
+"协同标准误差"
+
+#: STATS_COXREGR.R:411
+#: STATS_COXREGR.R:412
+#: STATS_COXREGR.R:419
+#: STATS_COXREGR.R:420
+#: STATS_COXREGR.R:421
+#: STATS_COXREGR.R:428
+#: STATS_COXREGR.R:429
+#: STATS_COXREGR.R:430
+#: STATS_COXREGR.R:450
+msgid "--NA--"
+msgstr ""
+"--不适用--"
+
+#: STATS_COXREGR.R:445
+#: STATS_COXREGR.R:446
+#: STATS_COXREGR.R:447
+#: STATS_COXREGR.R:449
+msgid "--None--"
+msgstr ""
+"--无--"
+
+#: STATS_COXREGR.R:468
+msgid "Values"
+msgstr ""
+"值"
+
+#: STATS_COXREGR.R:470
+msgid "Robust\nS.E."
+msgstr ""
+"稳健\nS.E."
+
+#: STATS_COXREGR.R:474
+msgid "Cox Regression Summary"
+msgstr ""
+"Cox 回归摘要"
+
+#: STATS_COXREGR.R:476
+msgid "Results computed by R survival package"
+msgstr ""
+"由 R survival 程序包计算的结果"
+
+#: STATS_COXREGR.R:485
+msgid "Coefficient"
+msgstr ""
+"系数"
+
+#: STATS_COXREGR.R:485
+msgid "S.E.\nCoefficient"
+msgstr ""
+"S.E.\n系数"
+
+#: STATS_COXREGR.R:486
+msgid "Z"
+msgstr ""
+"Z"
+
+#: STATS_COXREGR.R:486
+#: STATS_COXREGR.R:507
+#: STATS_COXREGR.R:630
+msgid "Sig."
+msgstr ""
+"显著性"
+
+#: STATS_COXREGR.R:487
+msgid "Exp(coef)"
+msgstr ""
+"Exp(coef)"
+
+#: STATS_COXREGR.R:487
+msgid "Exp(-coef)"
+msgstr ""
+"Exp(-coef)"
+
+#: STATS_COXREGR.R:487
+msgid "Lower\n95% C.I"
+msgstr ""
+"\n95% C.I 下限"
+
+#: STATS_COXREGR.R:487
+msgid "Upper\n95% C.I"
+msgstr ""
+"\n95% C.I 上限"
+
+#: STATS_COXREGR.R:488
+msgid "Event variable: %s"
+msgstr ""
+"事件变量：%s"
+
+#: STATS_COXREGR.R:504
+msgid "The ANOVA table is not available when clustering is used"
+msgstr ""
+"使用聚类时，ANOVA 表不可用"
+
+#: STATS_COXREGR.R:507
+msgid "Log Likelihood"
+msgstr ""
+"对数似然"
+
+#: STATS_COXREGR.R:507
+#: STATS_COXREGR.R:630
+msgid "Chi-Squared"
+msgstr ""
+"卡方"
+
+#: STATS_COXREGR.R:507
+msgid "Degrees of\nFreedom"
+msgstr ""
+"自由\n度"
+
+#: STATS_COXREGR.R:510
+msgid "Analysis of Deviance"
+msgstr ""
+"偏差分析"
+
+#: STATS_COXREGR.R:512
+msgid "Terms added sequentially"
+msgstr ""
+"按顺序添加的项"
+
+#: STATS_COXREGR.R:548
+msgid "Time Functions"
+msgstr ""
+"时间函数"
+
+#: STATS_COXREGR.R:550
+msgid "Variable"
+msgstr ""
+"变量"
+
+#: STATS_COXREGR.R:551
+msgid "Function"
+msgstr ""
+"函数"
+
+#: STATS_COXREGR.R:553
+msgid "Function definitions are interpreted as R syntax"
+msgstr ""
+"函数定义解释为 R 语法"
+
+#: STATS_COXREGR.R:566
+msgid "Survival plot is not available when there are time-varying functions."
+msgstr ""
+"存在随时间变化的函数时，生存图不可用。"
+
+#: STATS_COXREGR.R:584
+msgid "Independent variable value for survival plot has wrong type or too many values specified"
+msgstr ""
+"生存图的自变量值的类型不正确，或者指定了太多值"
+
+#: STATS_COXREGR.R:589
+msgid "Number of variable values for survival plot differs from variables in the model"
+msgstr ""
+"生存图的变量值数量不同于模型中的变量数"
+
+#: STATS_COXREGR.R:596
+msgid "Survival function at\n%s"
+msgstr ""
+"按 \n%s 的生存分析函数"
+
+#: STATS_COXREGR.R:602
+msgid "Survival Function at Covariate Means"
+msgstr ""
+"按协变量平均值的生存分析函数"
+
+#: STATS_COXREGR.R:605
+msgid "Strata:"
+msgstr ""
+"层："
+
+#: STATS_COXREGR.R:607
+msgid "Broken lines show 95% confidence interval"
+msgstr ""
+"虚线表示 95% 置信区间"
+
+#: STATS_COXREGR.R:613
+msgid "Cumulative Survival"
+msgstr ""
+"累积生存"
+
+#: STATS_COXREGR.R:627
+msgid "<GLOBAL>"
+msgstr ""
+"<全局>"
+
+#: STATS_COXREGR.R:630
+msgid "Rho"
+msgstr ""
+"Rho"
+
+#: STATS_COXREGR.R:632
+msgid "Proportional Hazards Test"
+msgstr ""
+"比例风险检验"
+
+#: STATS_COXREGR.R:634
+msgid "Survival times transform"
+msgstr ""
+"生存时间转换"
+
+#: STATS_COXREGR.R:636
+msgid "Proportional Hazards Test: Schoenfeld Residuals"
+msgstr ""
+"比例风险检验：舍恩费尔德残差"
+
+#: STATS_COXREGR.R:640
+msgid "Residuals - Martingale"
+msgstr ""
+"残差 - 马丁格尔"
+
+#: STATS_COXREGR.R:641
+msgid "Residuals - Deviance"
+msgstr ""
+"残差 - 偏差"
+
+#: STATS_COXREGR.R:642
+msgid "Residuals - Score"
+msgstr ""
+"残差 - 得分"
+
+#: STATS_COXREGR.R:643
+msgid "Residuals - Schoenfeld"
+msgstr ""
+"残差 - 舍恩费尔德"
+
+#: STATS_COXREGR.R:644
+msgid "Residuals - Ldresponse"
+msgstr ""
+"残差 - Ldresponse"
+
+#: STATS_COXREGR.R:645
+msgid "Residuals - Scaled Schoenfeld"
+msgstr ""
+"残差 - 缩放的舍恩费尔德"
+
+#: STATS_COXREGR.R:646
+msgid "Dfbeta"
+msgstr ""
+"Dfbeta"
+
+#: STATS_COXREGR.R:647
+msgid "Stdized Dfbeta"
+msgstr ""
+"Stdized Dfbeta"
+
+#: STATS_COXREGR.R:648
+msgid "Predicted - Risk Score exp(linear pred.)"
+msgstr ""
+"预测 - 风险得分 exp(线性预测)"
+
+#: STATS_COXREGR.R:649
+msgid "Predicted - Linear Predictor"
+msgstr ""
+"预测 - 线性预测变量"
+
+#: STATS_COXREGR.R:650
+msgid "Predicted - Expected Number of Events"
+msgstr ""
+"预测 - 期望事件数"
+
+#: STATS_COXREGR.R:667
+msgid "Casewise and eventwise residuals cannot be combined in the same dataset"
+msgstr ""
+"不能在同一数据集中将个案和事件残差组合使用"
+
+#: STATS_COXREGR.R:671
+msgid "Eventwise residuals cannot be combined with predicted values in the same dataset"
+msgstr ""
+"不能在同一数据集中将事件残差与预测值组合使用"
+
+#: STATS_COXREGR.R:696
+msgid "Residual statistic %s not available for this model"
+msgstr ""
+"对于此模型，残差统计 %s 不可用"
+
+#: STATS_COXREGR.R:716
+msgid "Other"
+msgstr ""
+"其他"
+
+#: STATS_COXREGR.R:729
+#: STATS_COXREGR.R:746
+msgid "Prediction statistic %s not available for this model"
+msgstr ""
+"对于此模型，预测统计 %s 不可用"
+
+#: STATS_COXREGR.R:756
+msgid "quantile"
+msgstr ""
+"分位数"
+
+#: STATS_COXREGR.R:756
+msgid "uquantile"
+msgstr ""
+"uquantile"
+
+#: STATS_COXREGR.R:768
+msgid "No casewise results could be computed"
+msgstr ""
+"未能计算个案结果"
+
+#: STATS_COXREGR.R:777
+msgid "Failed to create caseresults dataset."
+msgstr ""
+"未能创建个案结果数据集。"
+
+#: STATS_COXREGR.R:809
+msgid "End of procedure"
+msgstr ""
+"过程结束"
+
+#: STATS_COXREGR.R:836
+msgid "Message Number"
+msgstr ""
+"消息编号"
+
+
