@@ -1,0 +1,563 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_COXREGR.R:156
+msgid "The active dataset must have a name if creating new datasets"
+msgstr ""
+"У активного набора данных должно быть имя, если создаются новые наборы данных"
+
+#: STATS_COXREGR.R:160
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"Одно или несколько имен наборов данных уже используются"
+
+#: STATS_COXREGR.R:189
+#: STATS_COXREGR.R:363
+#: STATS_COXREGR.R:489
+msgid "Cox Regression"
+msgstr ""
+"Регрессия Кокса"
+
+#: STATS_COXREGR.R:190
+msgid "Cox Regression: Warnings"
+msgstr ""
+"Регрессия Кокса: Предупреждения"
+
+#: STATS_COXREGR.R:197
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Необходим пакет R %s, но его не удалось загрузить."
+
+#: STATS_COXREGR.R:201
+msgid "At least one independent variable must be specified"
+msgstr ""
+"Необходимо указать по крайней мере одну независимую переменную"
+
+#: STATS_COXREGR.R:204
+msgid "Two time variables are required for interval censoring"
+msgstr ""
+"Для интервального цензурирования требуется две переменных"
+
+#: STATS_COXREGR.R:208
+msgid "An output dataset was specified without any residual or prediction specifications"
+msgstr ""
+"Был задан выходной набор данных без всяких спецификаций остатков и предсказаний"
+
+#: STATS_COXREGR.R:213
+msgid "Residuals or predicted values were specified but no dataset name was given"
+msgstr ""
+"Были заданы остатки или предсказанные значения, но не указано имя набора данных"
+
+#: STATS_COXREGR.R:222
+msgid "The same variable cannot appear in both the independents and strata lists"
+msgstr ""
+"Одна и та же переменная не может присутствовать и в списке независимых переменных, и в списке переменных слоев."
+
+#: STATS_COXREGR.R:229
+msgid "The event and time variables must have a scale measurement level"
+msgstr ""
+"У переменных событий и переменных времени должен быть количественный тип измерений."
+
+#: STATS_COXREGR.R:233
+msgid "Strata variables must be categorical: %s"
+msgstr ""
+"Переменные слоев должны быть категориальными: %s"
+
+#: STATS_COXREGR.R:296
+msgid "Survival"
+msgstr ""
+"Анализ выживаемости"
+
+#: STATS_COXREGR.R:302
+msgid "Survival Values (First %s Cases)"
+msgstr ""
+"Значения выживаемости (первые %s наблюдений)"
+
+#: STATS_COXREGR.R:304
+msgid "+ indicates that the event did not occur"
+msgstr ""
+"+ означает, что события не было"
+
+#: STATS_COXREGR.R:330
+msgid "A list of time variables does not have a corresponding function"
+msgstr ""
+"Для списка переменных времени нет соответствующей функции"
+
+#: STATS_COXREGR.R:365
+msgid "Event Variable"
+msgstr ""
+"Переменная события"
+
+#: STATS_COXREGR.R:366
+msgid "Censoring Type"
+msgstr ""
+"Тип цензурирования"
+
+#: STATS_COXREGR.R:367
+msgid "Time"
+msgstr ""
+"Время"
+
+#: STATS_COXREGR.R:368
+msgid "Time2"
+msgstr ""
+"Время2"
+
+#: STATS_COXREGR.R:369
+msgid "Strata"
+msgstr ""
+"Страты"
+
+#: STATS_COXREGR.R:370
+msgid "Cluster"
+msgstr ""
+"Кластеризовать"
+
+#: STATS_COXREGR.R:371
+msgid "Ties"
+msgstr ""
+"Совпадающие наблюдения"
+
+#: STATS_COXREGR.R:372
+msgid "Output Dataset"
+msgstr ""
+"Выходной набор данных"
+
+#: STATS_COXREGR.R:373
+msgid "Prediction Reference"
+msgstr ""
+"Базовое значение прогноза"
+
+#: STATS_COXREGR.R:374
+msgid "Missing Values Treatment"
+msgstr ""
+"Способ обработки пропущенных значений"
+
+#: STATS_COXREGR.R:375
+msgid "Number of Cases"
+msgstr ""
+"Количество наблюдений"
+
+#: STATS_COXREGR.R:376
+msgid "Missing Value Deletion"
+msgstr ""
+"Удаление пропущенного значения"
+
+#: STATS_COXREGR.R:377
+msgid "Number of Events"
+msgstr ""
+"Число случаев"
+
+#: STATS_COXREGR.R:378
+msgid "Number of Iterations"
+msgstr ""
+"Количество итераций"
+
+#: STATS_COXREGR.R:379
+msgid "Log Likelihood (Initial)"
+msgstr ""
+"Логарифмическое правдоподобие (начальное)"
+
+#: STATS_COXREGR.R:380
+msgid "Log Likelihood (Final)"
+msgstr ""
+"Логарифмическое правдоподобие (конечное)"
+
+#: STATS_COXREGR.R:381
+msgid "Likelihood Ratio Test"
+msgstr ""
+"Критерий отношения правдоподобия"
+
+#: STATS_COXREGR.R:382
+msgid "LR Degrees of Freedom"
+msgstr ""
+"Степени свободы LR"
+
+#: STATS_COXREGR.R:383
+msgid "LR Sig"
+msgstr ""
+"Значимость LR"
+
+#: STATS_COXREGR.R:384
+msgid "Wald Test"
+msgstr ""
+"Критерий Вальда"
+
+#: STATS_COXREGR.R:385
+msgid "Wald Degrees of Freedom"
+msgstr ""
+"Степени свободы Вальда"
+
+#: STATS_COXREGR.R:386
+msgid "Wald Sig"
+msgstr ""
+"Значимость Вальда"
+
+#: STATS_COXREGR.R:387
+msgid "Score (Logrank) Test"
+msgstr ""
+"Критерий оценок (Logrank)"
+
+#: STATS_COXREGR.R:388
+msgid "Score Degrees of Freedom"
+msgstr ""
+"Степени свободы оценки"
+
+#: STATS_COXREGR.R:389
+msgid "Score Sig"
+msgstr ""
+"Значимость оценки"
+
+#: STATS_COXREGR.R:390
+msgid "R Squared"
+msgstr ""
+"R-квадрат"
+
+#: STATS_COXREGR.R:391
+msgid "Maximum Possible Rsq"
+msgstr ""
+"Максимально возможный R-квадрат"
+
+#: STATS_COXREGR.R:392
+msgid "Concordance"
+msgstr ""
+"Согласие"
+
+#: STATS_COXREGR.R:393
+msgid "Concordance Std. Error"
+msgstr ""
+"Среднеквадратичная ошибка согласия"
+
+#: STATS_COXREGR.R:411
+#: STATS_COXREGR.R:412
+#: STATS_COXREGR.R:419
+#: STATS_COXREGR.R:420
+#: STATS_COXREGR.R:421
+#: STATS_COXREGR.R:428
+#: STATS_COXREGR.R:429
+#: STATS_COXREGR.R:430
+#: STATS_COXREGR.R:450
+msgid "--NA--"
+msgstr ""
+"--НП--"
+
+#: STATS_COXREGR.R:445
+#: STATS_COXREGR.R:446
+#: STATS_COXREGR.R:447
+#: STATS_COXREGR.R:449
+msgid "--None--"
+msgstr ""
+"--Нет--"
+
+#: STATS_COXREGR.R:468
+msgid "Values"
+msgstr ""
+"Значения"
+
+#: STATS_COXREGR.R:470
+msgid "Robust\nS.E."
+msgstr ""
+"Устойчивая\nсреднеквадратичная ошибка"
+
+#: STATS_COXREGR.R:474
+msgid "Cox Regression Summary"
+msgstr ""
+"Сводка регрессии Кокса"
+
+#: STATS_COXREGR.R:476
+msgid "Results computed by R survival package"
+msgstr ""
+"Результаты, рассчитанные пакетом выживания R"
+
+#: STATS_COXREGR.R:485
+msgid "Coefficient"
+msgstr ""
+"Коэффициент"
+
+#: STATS_COXREGR.R:485
+msgid "S.E.\nCoefficient"
+msgstr ""
+"Коэффициент\nсреднеквадратичной ошибки"
+
+#: STATS_COXREGR.R:486
+msgid "Z"
+msgstr ""
+"Z"
+
+#: STATS_COXREGR.R:486
+#: STATS_COXREGR.R:507
+#: STATS_COXREGR.R:630
+msgid "Sig."
+msgstr ""
+"Значимость"
+
+#: STATS_COXREGR.R:487
+msgid "Exp(coef)"
+msgstr ""
+"Exp(коэффициент)"
+
+#: STATS_COXREGR.R:487
+msgid "Exp(-coef)"
+msgstr ""
+"Exp(-коэффициент)"
+
+#: STATS_COXREGR.R:487
+msgid "Lower\n95% C.I"
+msgstr ""
+"Доверительный интервал\nнижних 95%"
+
+#: STATS_COXREGR.R:487
+msgid "Upper\n95% C.I"
+msgstr ""
+"Доверительный интервал\nверхних 95%"
+
+#: STATS_COXREGR.R:488
+msgid "Event variable: %s"
+msgstr ""
+"Переменная события: %s"
+
+#: STATS_COXREGR.R:504
+msgid "The ANOVA table is not available when clustering is used"
+msgstr ""
+"Таблица ANOVA недоступна, когда используется кластеризация"
+
+#: STATS_COXREGR.R:507
+msgid "Log Likelihood"
+msgstr ""
+"Логарифмическое правдоподобие"
+
+#: STATS_COXREGR.R:507
+#: STATS_COXREGR.R:630
+msgid "Chi-Squared"
+msgstr ""
+"Хи-квадрат"
+
+#: STATS_COXREGR.R:507
+msgid "Degrees of\nFreedom"
+msgstr ""
+"Степени\nсвободы"
+
+#: STATS_COXREGR.R:510
+msgid "Analysis of Deviance"
+msgstr ""
+"Анализ дисперсии"
+
+#: STATS_COXREGR.R:512
+msgid "Terms added sequentially"
+msgstr ""
+"Термы, добавленные последовательно"
+
+#: STATS_COXREGR.R:548
+msgid "Time Functions"
+msgstr ""
+"Функции времени"
+
+#: STATS_COXREGR.R:550
+msgid "Variable"
+msgstr ""
+"Переменная"
+
+#: STATS_COXREGR.R:551
+msgid "Function"
+msgstr ""
+"Функция"
+
+#: STATS_COXREGR.R:553
+msgid "Function definitions are interpreted as R syntax"
+msgstr ""
+"Определения функций интерпретируются как синтаксис R"
+
+#: STATS_COXREGR.R:566
+msgid "Survival plot is not available when there are time-varying functions."
+msgstr ""
+"График выживания недоступен, когда есть функции, зависящие от времени."
+
+#: STATS_COXREGR.R:584
+msgid "Independent variable value for survival plot has wrong type or too many values specified"
+msgstr ""
+"Для зависимой переменной графика выживания задан неверный тип или слишком много значений"
+
+#: STATS_COXREGR.R:589
+msgid "Number of variable values for survival plot differs from variables in the model"
+msgstr ""
+"Число значений переменных для графика выживания отличается от переменных в модели"
+
+#: STATS_COXREGR.R:596
+msgid "Survival function at\n%s"
+msgstr ""
+"Функция выживания по\n%s"
+
+#: STATS_COXREGR.R:602
+msgid "Survival Function at Covariate Means"
+msgstr ""
+"Функция выживания по средним по ковариатам"
+
+#: STATS_COXREGR.R:605
+msgid "Strata:"
+msgstr ""
+"Страты:"
+
+#: STATS_COXREGR.R:607
+msgid "Broken lines show 95% confidence interval"
+msgstr ""
+"Прерывистые линии показывают доверительный интервал 95%"
+
+#: STATS_COXREGR.R:613
+msgid "Cumulative Survival"
+msgstr ""
+"Кумулятивная функция выживания"
+
+#: STATS_COXREGR.R:627
+msgid "<GLOBAL>"
+msgstr ""
+"<GLOBAL>"
+
+#: STATS_COXREGR.R:630
+msgid "Rho"
+msgstr ""
+"Ро"
+
+#: STATS_COXREGR.R:632
+msgid "Proportional Hazards Test"
+msgstr ""
+"Критерий пропорциональных рисков"
+
+#: STATS_COXREGR.R:634
+msgid "Survival times transform"
+msgstr ""
+"Преобразование времени выживания"
+
+#: STATS_COXREGR.R:636
+msgid "Proportional Hazards Test: Schoenfeld Residuals"
+msgstr ""
+"Критерий пропорциональных рисков: остатки Шонфельда"
+
+#: STATS_COXREGR.R:640
+msgid "Residuals - Martingale"
+msgstr ""
+"Остатки - Мартингейла"
+
+#: STATS_COXREGR.R:641
+msgid "Residuals - Deviance"
+msgstr ""
+"Остатки - Отклонение"
+
+#: STATS_COXREGR.R:642
+msgid "Residuals - Score"
+msgstr ""
+"Остатки - оценка"
+
+#: STATS_COXREGR.R:643
+msgid "Residuals - Schoenfeld"
+msgstr ""
+"Остатки - Шонфельда"
+
+#: STATS_COXREGR.R:644
+msgid "Residuals - Ldresponse"
+msgstr ""
+"Остатки - Ldresponse"
+
+#: STATS_COXREGR.R:645
+msgid "Residuals - Scaled Schoenfeld"
+msgstr ""
+"Остатки - масштабированные Шонфельда"
+
+#: STATS_COXREGR.R:646
+msgid "Dfbeta"
+msgstr ""
+"Dfbeta"
+
+#: STATS_COXREGR.R:647
+msgid "Stdized Dfbeta"
+msgstr ""
+"Стандартизованая Dfbeta"
+
+#: STATS_COXREGR.R:648
+msgid "Predicted - Risk Score exp(linear pred.)"
+msgstr ""
+"Предсказанные значения - оценка риска exp(линейный предиктор)"
+
+#: STATS_COXREGR.R:649
+msgid "Predicted - Linear Predictor"
+msgstr ""
+"Предсказанные значения - линейный предиктор"
+
+#: STATS_COXREGR.R:650
+msgid "Predicted - Expected Number of Events"
+msgstr ""
+"Предсказанные значения - ожидаемое число событий"
+
+#: STATS_COXREGR.R:667
+msgid "Casewise and eventwise residuals cannot be combined in the same dataset"
+msgstr ""
+"Остатки по наблюдениям и по событиям нельзя сочетать в одном наборе данных"
+
+#: STATS_COXREGR.R:671
+msgid "Eventwise residuals cannot be combined with predicted values in the same dataset"
+msgstr ""
+"Остатки по событиям нельзя сочетать с предсказанными значениями в одном наборе данных"
+
+#: STATS_COXREGR.R:696
+msgid "Residual statistic %s not available for this model"
+msgstr ""
+"Статистика остатков %s недоступна для этой модели"
+
+#: STATS_COXREGR.R:716
+msgid "Other"
+msgstr ""
+"Другой"
+
+#: STATS_COXREGR.R:729
+#: STATS_COXREGR.R:746
+msgid "Prediction statistic %s not available for this model"
+msgstr ""
+"Статистика предсказания %s недоступна для этой модели"
+
+#: STATS_COXREGR.R:756
+msgid "quantile"
+msgstr ""
+"квантиль"
+
+#: STATS_COXREGR.R:756
+msgid "uquantile"
+msgstr ""
+"uquantile"
+
+#: STATS_COXREGR.R:768
+msgid "No casewise results could be computed"
+msgstr ""
+"Не удалось вычислить никакие результаты по наблюдениям"
+
+#: STATS_COXREGR.R:777
+msgid "Failed to create caseresults dataset."
+msgstr ""
+"Не удалось создать набор данных с результатами наблюдений"
+
+#: STATS_COXREGR.R:809
+msgid "End of procedure"
+msgstr ""
+"Конец процедуры"
+
+#: STATS_COXREGR.R:836
+msgid "Message Number"
+msgstr ""
+"Номер сообщения"
+
+
