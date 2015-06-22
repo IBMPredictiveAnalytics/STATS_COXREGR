@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS COXREGR Extension command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS COXREGR Extension command</h1>
+
+<p>Calculate Cox Regression</p>
+<div class="syntax">
+<p>STATS COXREGR CENSORTYPE<sup>&#42;</sup> = LEFT or RIGHT<sup>&#42;&#42;</sup> or COUNTING<br/>
+    EVENT<sup>&#42;</sup> = <em>event variable name</em><br/>
+    TIME1<sup>&#42;</sup> = <em>censor time variable</em><br/>
+    TIME2 = <em>second censor time variable for interval censoring</em><br/>
+    INDEP<sup>&#42;</sup> = <em>list of independent variables</em><br/>
+    STRATA = <em>list of stratification variables</em><br/>
+    CLUSTER = <em>clustering variable</em></p>
+
+<p>/TIME X1 = <em>varlist</em> X2 = <em>varlist</em> &hellip; X5 = <em>varlist</em><br/>
+      T1 = &ldquo;<em>formula</em>&rdquo; T2 = &ldquo;<em>formula</em>&rdquo; &hellip; T5 = &ldquo;<em>formula</em>&rdquo;</p>
+
+<p>/OPTIONS 
+    TIES = EFRON<sup>&#42;&#42;</sup> or BRESLOW or EXACT<br/>
+    MISSING = LISTWISE<sup>&#42;&#42;</sup> or INCLUDE or FAIL<br/>
+    MAXITER = <em>number</em> PCONVERGE = <em>relative tolerance</em> SINGULAR = <em>number</em></p>
+
+<p>/OUTPUT 
+    SURVSPECS = YES or NO<sup>&#42;&#42;</sup><br/>
+    PROPORTEST = YES or NO<sup>&#42;&#42;</sup> TESTTRANSFORM = KM<sup>&#42;&#42;</sup> or RANK or IDENTITY<br/>
+    SURVIVALPLOT = YES or NO PLOTDATA = <em>list of covariate values</em></p>
+
+<p>/SAVE CASERESULTS = <em>dataset</em><br/>
+    RESIDUALS = MARTINGALE DEVIANCE SCORE DFBETA DFBETAS SCHOENFELD SCALEDSCH PARTIAL<br/>
+    PREDICT = LP RISK EXPECTED<br/>
+    PREDREF = STRATA or SAMPLE  </p>
+
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default.</p>
+</div>
+<p>STATS COXREGR /HELP.  prints this information and does nothing else.</p>
+
+<pre class="example"><code>stats coxregr censortype=right event=event time1=time
+  indep = age quant
+  /options ties=breslow
+  /save caseresults=residuals residuals=dfbeta
+  /output survspecs=yes.
+</code></pre>
+
+<p>This procedure does not honor weights or split files.</p>
+
+<p><strong>CENSORTYPE</strong> specifies the type of censoring.</p>
+
+<p><strong>EVENT</strong> specifies the event variable.  The values are interpreted as</p>
+
+<ul>
+<li>0 = no event (alive), </li>
+<li><p>1 = event occurred (dead).  </p>
+
+<p>For interval censoring, the values are </p></li>
+<li><p>0 = right censored</p></li>
+<li><p>1 = event at time </p></li>
+<li><p>2 = left censored</p></li>
+<li><p>3 = interval censored</p></li>
+</ul>
+
+<p><strong>TIME1</strong>  For right-censored data, the values are the follow up (endpoint) time.
+  For interval censoring, the values are the interval start times.  </p>
+
+<p><strong>TIME2</strong> This is only used with counting process censoring, where it is required.</p>
+
+<p><strong>INDEP</strong> specifies the independent variables.  Variables with a
+  categorical measurement level - nominal or ordinal, will be automatically 
+  converted to factors.</p>
+
+<p><strong>STRATA</strong> specifies stratification variables.  The same variable
+    cannot appear in both the independents and strata fields.</p>
+
+<p><strong>CLUSTER</strong> specifies a clustering variable for variance estimation.
+This produces an approximate jacknife variance estimate if
+the variable values are unique or, if it identifies clusters
+of correlated observations, a grouped jacknife.</p>
+
+<h2>TIME</h2>
+
+<p>The TIME subcommand allows for time-varying variables.  Up to
+five sets can be specified.  Each <strong>X</strong> parameter is paired with a <strong>T</strong>
+parameter.  The X parameter lists one or more variables that share
+a transformation formula defined by the T variable.  In writing
+the formula, use <em>x</em> for the variable, <em>t</em> for time, <em>enum</em> for the
+event, and <em>weight</em>, for weighted data, for the weight.  The
+T terms must be quoted.  For example  </p>
+
+<pre><code>X1 = X Z T1 = &quot;x + t/12&quot;
+</code></pre>
+
+<p>Time varying data can also be represented as multiple cases
+with one row for each time period using time1 and time2 variables.</p>
+
+<p><strong>MISSING</strong> indicates the missing value treatment.  Cases with user missing
+    values can be excluded (LISTWISE), or
+    the procedure can be stopped if any user missing are encountered (FAIL).
+    System missing values always cause the case to be omitted.
+    Missing values in the event or time variables are not allowed.</p>
+
+<p><strong>MAXITER</strong>, <strong>PCONVERGE</strong>, and <strong>SINGULAR</strong> specifications control the estimation
+    process.  PCONVERGE is the relative tolerance (change) below which
+    convergence is determined.</p>
+
+<h2>OUTPUT</h2>
+
+<p><strong>SURVSPECS</strong> specifies whether to produce a table of survival time
+interpretations for up to the first 50 cases</p>
+
+<p><strong>PROPORTEST</strong> specifies whether or not to test the proportional hazards
+assumption.  It produces a test table and plot for each variable.</p>
+
+<p><strong>TESTTRANSFORM</strong> specifies the time transformation to be performed
+before the test is carried out.</p>
+
+<p><strong>SURVIVALPLOT</strong> specifies whether or not to produce this plot.
+By default, the curve is evaluated at the means of the independent
+variables.</p>
+
+<p><strong>PLOTDATA</strong> can specify a list of values, one per independent variable,
+at which the survival curve is evaluated for the plot.</p>
+
+<h2>SAVE</h2>
+
+<p>The SAVE subcommand specifies a dataset to be created with
+selected types of residuals and predicted values.</p>
+
+<p><strong>CASERESULTS</strong> is the dataset name, which must not already be in use.</p>
+
+<p><strong>RESIDUALS</strong> specifies one or more residual types to be saved.
+The first four types produce a value for each case.  The last
+two produce a value for each event.  You cannot save values from
+both groups in the same command.  If event residuals are selected,
+predicted values are not available.</p>
+
+<p><strong>PREDICT</strong> specifies one or more predicted variable types to be saved.
+    * LP is the linear predictor
+    * RISK is the reisk score, exp(LP)
+    * EXPECTED is the expected number of events
+Standard errors are provided with each type specified.
+<strong>PREDREF</strong> = STRATA specifies that predicted values are relative
+to their stratum.  SAMPLE users the overall sample means.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
