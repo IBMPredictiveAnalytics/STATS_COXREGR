@@ -1,0 +1,563 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_COXREGR.R:156
+msgid "The active dataset must have a name if creating new datasets"
+msgstr ""
+"W przypadku tworzenia nowych zbiorów danych aktywny zbiór danych musi mieć nazwę"
+
+#: STATS_COXREGR.R:160
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"Co najmniej jedna określona nazwa zbioru danych jest już używana"
+
+#: STATS_COXREGR.R:189
+#: STATS_COXREGR.R:363
+#: STATS_COXREGR.R:489
+msgid "Cox Regression"
+msgstr ""
+"Regresja Coxa"
+
+#: STATS_COXREGR.R:190
+msgid "Cox Regression: Warnings"
+msgstr ""
+"Regresja Coxa: Ostrzeżenia"
+
+#: STATS_COXREGR.R:197
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Pakiet R %s jest wymagany, ale nie można było go wczytać."
+
+#: STATS_COXREGR.R:201
+msgid "At least one independent variable must be specified"
+msgstr ""
+"Przynajmniej jedna zmienna niezależna powinna zostać określona"
+
+#: STATS_COXREGR.R:204
+msgid "Two time variables are required for interval censoring"
+msgstr ""
+"Cenzurowanie przedziałowe wymaga dwu zmiennych czasu"
+
+#: STATS_COXREGR.R:208
+msgid "An output dataset was specified without any residual or prediction specifications"
+msgstr ""
+"Wynikowy zbiór danych został określony bez jakichkolwiek reszt lub specyfikacji predykcji"
+
+#: STATS_COXREGR.R:213
+msgid "Residuals or predicted values were specified but no dataset name was given"
+msgstr ""
+"Reszty lub wartości przewidywane zostały podane, lecz nie podano nazwy zbioru danych"
+
+#: STATS_COXREGR.R:222
+msgid "The same variable cannot appear in both the independents and strata lists"
+msgstr ""
+"Ta sama zmienna nie może pojawiać się jednocześnie na listach niezależnych i na listach warstw."
+
+#: STATS_COXREGR.R:229
+msgid "The event and time variables must have a scale measurement level"
+msgstr ""
+"Zmienne zdarzenia i czasu muszą charakteryzować się poziomem pomiaru skali"
+
+#: STATS_COXREGR.R:233
+msgid "Strata variables must be categorical: %s"
+msgstr ""
+"Zmienne warstw muszą być jakościowe: %s"
+
+#: STATS_COXREGR.R:296
+msgid "Survival"
+msgstr ""
+"Przeżycie"
+
+#: STATS_COXREGR.R:302
+msgid "Survival Values (First %s Cases)"
+msgstr ""
+"Wartości przeżycia (pierwsze obserwacje w liczbie %s)"
+
+#: STATS_COXREGR.R:304
+msgid "+ indicates that the event did not occur"
+msgstr ""
+"+ oznacza zdarzenie, które nie wystąpiło"
+
+#: STATS_COXREGR.R:330
+msgid "A list of time variables does not have a corresponding function"
+msgstr ""
+"Dla listy zmiennych czasu brak odpowiedniej funkcji"
+
+#: STATS_COXREGR.R:365
+msgid "Event Variable"
+msgstr ""
+"Zmienna zdarzenia"
+
+#: STATS_COXREGR.R:366
+msgid "Censoring Type"
+msgstr ""
+"Typ cenzurowania"
+
+#: STATS_COXREGR.R:367
+msgid "Time"
+msgstr ""
+"Czas"
+
+#: STATS_COXREGR.R:368
+msgid "Time2"
+msgstr ""
+"Czas2"
+
+#: STATS_COXREGR.R:369
+msgid "Strata"
+msgstr ""
+"Warstwa"
+
+#: STATS_COXREGR.R:370
+msgid "Cluster"
+msgstr ""
+"Skupienie"
+
+#: STATS_COXREGR.R:371
+msgid "Ties"
+msgstr ""
+"Wiązania"
+
+#: STATS_COXREGR.R:372
+msgid "Output Dataset"
+msgstr ""
+"Wyjściowy zbiór danych"
+
+#: STATS_COXREGR.R:373
+msgid "Prediction Reference"
+msgstr ""
+"Referencja dla predykcji"
+
+#: STATS_COXREGR.R:374
+msgid "Missing Values Treatment"
+msgstr ""
+"Traktowanie braków danych"
+
+#: STATS_COXREGR.R:375
+msgid "Number of Cases"
+msgstr ""
+"Liczba obserwacji"
+
+#: STATS_COXREGR.R:376
+msgid "Missing Value Deletion"
+msgstr ""
+"Usuwanie braków danych"
+
+#: STATS_COXREGR.R:377
+msgid "Number of Events"
+msgstr ""
+"Liczba zdarzeń"
+
+#: STATS_COXREGR.R:378
+msgid "Number of Iterations"
+msgstr ""
+"Liczba iteracji"
+
+#: STATS_COXREGR.R:379
+msgid "Log Likelihood (Initial)"
+msgstr ""
+"Logarytm wiarygodności (początkowej)"
+
+#: STATS_COXREGR.R:380
+msgid "Log Likelihood (Final)"
+msgstr ""
+"Logarytm wiarygodności (końcowej)"
+
+#: STATS_COXREGR.R:381
+msgid "Likelihood Ratio Test"
+msgstr ""
+"Test ilorazu wiarygodności"
+
+#: STATS_COXREGR.R:382
+msgid "LR Degrees of Freedom"
+msgstr ""
+"Stopnie swobody LR"
+
+#: STATS_COXREGR.R:383
+msgid "LR Sig"
+msgstr ""
+"Ist. LR"
+
+#: STATS_COXREGR.R:384
+msgid "Wald Test"
+msgstr ""
+"Test Walda"
+
+#: STATS_COXREGR.R:385
+msgid "Wald Degrees of Freedom"
+msgstr ""
+"Stopnie swobody Walda"
+
+#: STATS_COXREGR.R:386
+msgid "Wald Sig"
+msgstr ""
+"Ist. Walda"
+
+#: STATS_COXREGR.R:387
+msgid "Score (Logrank) Test"
+msgstr ""
+"Ocena (Logrank) Test"
+
+#: STATS_COXREGR.R:388
+msgid "Score Degrees of Freedom"
+msgstr ""
+"Stopnie swobody oceny"
+
+#: STATS_COXREGR.R:389
+msgid "Score Sig"
+msgstr ""
+"Ist. oceny"
+
+#: STATS_COXREGR.R:390
+msgid "R Squared"
+msgstr ""
+"R kwadrat"
+
+#: STATS_COXREGR.R:391
+msgid "Maximum Possible Rsq"
+msgstr ""
+"Możliwe maksimum Rsq"
+
+#: STATS_COXREGR.R:392
+msgid "Concordance"
+msgstr ""
+"Konkordancja"
+
+#: STATS_COXREGR.R:393
+msgid "Concordance Std. Error"
+msgstr ""
+"Błąd standardowy zgodności"
+
+#: STATS_COXREGR.R:411
+#: STATS_COXREGR.R:412
+#: STATS_COXREGR.R:419
+#: STATS_COXREGR.R:420
+#: STATS_COXREGR.R:421
+#: STATS_COXREGR.R:428
+#: STATS_COXREGR.R:429
+#: STATS_COXREGR.R:430
+#: STATS_COXREGR.R:450
+msgid "--NA--"
+msgstr ""
+"--Nie dotyczy--"
+
+#: STATS_COXREGR.R:445
+#: STATS_COXREGR.R:446
+#: STATS_COXREGR.R:447
+#: STATS_COXREGR.R:449
+msgid "--None--"
+msgstr ""
+"--Brak--"
+
+#: STATS_COXREGR.R:468
+msgid "Values"
+msgstr ""
+"Wartości"
+
+#: STATS_COXREGR.R:470
+msgid "Robust\nS.E."
+msgstr ""
+"Odporna\nS.E."
+
+#: STATS_COXREGR.R:474
+msgid "Cox Regression Summary"
+msgstr ""
+"Podsumowanie regresji Coxa"
+
+#: STATS_COXREGR.R:476
+msgid "Results computed by R survival package"
+msgstr ""
+"Wyniki obliczone za pośrednictwem pakietu przeżycia R"
+
+#: STATS_COXREGR.R:485
+msgid "Coefficient"
+msgstr ""
+"Współczynnik"
+
+#: STATS_COXREGR.R:485
+msgid "S.E.\nCoefficient"
+msgstr ""
+"Współczynnik\nS.E."
+
+#: STATS_COXREGR.R:486
+msgid "Z"
+msgstr ""
+"Z"
+
+#: STATS_COXREGR.R:486
+#: STATS_COXREGR.R:507
+#: STATS_COXREGR.R:630
+msgid "Sig."
+msgstr ""
+"Istotność"
+
+#: STATS_COXREGR.R:487
+msgid "Exp(coef)"
+msgstr ""
+"Exp(wsp)"
+
+#: STATS_COXREGR.R:487
+msgid "Exp(-coef)"
+msgstr ""
+"Exp(-wsp)"
+
+#: STATS_COXREGR.R:487
+msgid "Lower\n95% C.I"
+msgstr ""
+"Dolny PU \n95%"
+
+#: STATS_COXREGR.R:487
+msgid "Upper\n95% C.I"
+msgstr ""
+"Górny PU \n95%"
+
+#: STATS_COXREGR.R:488
+msgid "Event variable: %s"
+msgstr ""
+"Zmienna zdarzenia: %s"
+
+#: STATS_COXREGR.R:504
+msgid "The ANOVA table is not available when clustering is used"
+msgstr ""
+"Tabela ANOVA jest niedostępna w przypadku używania grupowania"
+
+#: STATS_COXREGR.R:507
+msgid "Log Likelihood"
+msgstr ""
+"Logarytm wiarygodności"
+
+#: STATS_COXREGR.R:507
+#: STATS_COXREGR.R:630
+msgid "Chi-Squared"
+msgstr ""
+"Chi-kwadrat"
+
+#: STATS_COXREGR.R:507
+msgid "Degrees of\nFreedom"
+msgstr ""
+"Stopnie \nswobody"
+
+#: STATS_COXREGR.R:510
+msgid "Analysis of Deviance"
+msgstr ""
+"Analiza odchyleń"
+
+#: STATS_COXREGR.R:512
+msgid "Terms added sequentially"
+msgstr ""
+"Składniki dodawane kolejno"
+
+#: STATS_COXREGR.R:548
+msgid "Time Functions"
+msgstr ""
+"Funkcje czasu"
+
+#: STATS_COXREGR.R:550
+msgid "Variable"
+msgstr ""
+"Zmienna"
+
+#: STATS_COXREGR.R:551
+msgid "Function"
+msgstr ""
+"Funkcja"
+
+#: STATS_COXREGR.R:553
+msgid "Function definitions are interpreted as R syntax"
+msgstr ""
+"Definicje funkcji są interpretowane jako składnia R"
+
+#: STATS_COXREGR.R:566
+msgid "Survival plot is not available when there are time-varying functions."
+msgstr ""
+"Wykres przeżycia nie jest dostępny w przypadku występowania funkcji zmiennych w czasie."
+
+#: STATS_COXREGR.R:584
+msgid "Independent variable value for survival plot has wrong type or too many values specified"
+msgstr ""
+"Wartość zmiennej niezależnej dla wykresu przeżycia jest nieprawidłowego typu lub podano zbyt wiele wartości"
+
+#: STATS_COXREGR.R:589
+msgid "Number of variable values for survival plot differs from variables in the model"
+msgstr ""
+"Liczba wartości zmiennych dla wykresu przeżycia różni się od zmiennych w modelu"
+
+#: STATS_COXREGR.R:596
+msgid "Survival function at\n%s"
+msgstr ""
+"Funkcja przeżycia przy\n%s"
+
+#: STATS_COXREGR.R:602
+msgid "Survival Function at Covariate Means"
+msgstr ""
+"Funkcja przeżycia dla współzmiennej oznacza"
+
+#: STATS_COXREGR.R:605
+msgid "Strata:"
+msgstr ""
+"Warstwa:"
+
+#: STATS_COXREGR.R:607
+msgid "Broken lines show 95% confidence interval"
+msgstr ""
+"Przerwane linie pokazują % przedział ufności 95"
+
+#: STATS_COXREGR.R:613
+msgid "Cumulative Survival"
+msgstr ""
+"Skumulowana przeżycia"
+
+#: STATS_COXREGR.R:627
+msgid "<GLOBAL>"
+msgstr ""
+"<GLOBALNA>"
+
+#: STATS_COXREGR.R:630
+msgid "Rho"
+msgstr ""
+"Rho"
+
+#: STATS_COXREGR.R:632
+msgid "Proportional Hazards Test"
+msgstr ""
+"Test proporcji hazardu"
+
+#: STATS_COXREGR.R:634
+msgid "Survival times transform"
+msgstr ""
+"Przekształcenie czasów przeżycia"
+
+#: STATS_COXREGR.R:636
+msgid "Proportional Hazards Test: Schoenfeld Residuals"
+msgstr ""
+"Test proporcji hazardu: reszty Schoenfelda"
+
+#: STATS_COXREGR.R:640
+msgid "Residuals - Martingale"
+msgstr ""
+"Reszty - Martyngał"
+
+#: STATS_COXREGR.R:641
+msgid "Residuals - Deviance"
+msgstr ""
+"Reszty - Odchylenie"
+
+#: STATS_COXREGR.R:642
+msgid "Residuals - Score"
+msgstr ""
+"Reszty - Ocena"
+
+#: STATS_COXREGR.R:643
+msgid "Residuals - Schoenfeld"
+msgstr ""
+"Reszty - Schoenfelda"
+
+#: STATS_COXREGR.R:644
+msgid "Residuals - Ldresponse"
+msgstr ""
+"Reszty - Ldresponse"
+
+#: STATS_COXREGR.R:645
+msgid "Residuals - Scaled Schoenfeld"
+msgstr ""
+"Reszty - Skalowane Schoenfelda"
+
+#: STATS_COXREGR.R:646
+msgid "Dfbeta"
+msgstr ""
+"Dfbeta"
+
+#: STATS_COXREGR.R:647
+msgid "Stdized Dfbeta"
+msgstr ""
+"Standaryzowana Dfbeta"
+
+#: STATS_COXREGR.R:648
+msgid "Predicted - Risk Score exp(linear pred.)"
+msgstr ""
+"Predykowane - Funkcja exp(pred. liniowa) oceny ryzyka"
+
+#: STATS_COXREGR.R:649
+msgid "Predicted - Linear Predictor"
+msgstr ""
+"Przewidywane - Predyktor liniowy"
+
+#: STATS_COXREGR.R:650
+msgid "Predicted - Expected Number of Events"
+msgstr ""
+"Przewidywane - Oczekiwana liczba zdarzeń"
+
+#: STATS_COXREGR.R:667
+msgid "Casewise and eventwise residuals cannot be combined in the same dataset"
+msgstr ""
+"Reszt z obserwacjami i reszt ze zdarzeniami nie można łączyć w jednym zbiorze danych"
+
+#: STATS_COXREGR.R:671
+msgid "Eventwise residuals cannot be combined with predicted values in the same dataset"
+msgstr ""
+"Reszt ze zdarzeniami nie można łączyć z wartościami przewidywanymi w jednym zbiorze danych"
+
+#: STATS_COXREGR.R:696
+msgid "Residual statistic %s not available for this model"
+msgstr ""
+"Statystyka reszt %s jest niedostępna dla tego modelu"
+
+#: STATS_COXREGR.R:716
+msgid "Other"
+msgstr ""
+"Inne"
+
+#: STATS_COXREGR.R:729
+#: STATS_COXREGR.R:746
+msgid "Prediction statistic %s not available for this model"
+msgstr ""
+"Statystyka predykcyjna %s jest niedostępna dla tego modelu"
+
+#: STATS_COXREGR.R:756
+msgid "quantile"
+msgstr ""
+"kwantyl"
+
+#: STATS_COXREGR.R:756
+msgid "uquantile"
+msgstr ""
+"kwantyl u"
+
+#: STATS_COXREGR.R:768
+msgid "No casewise results could be computed"
+msgstr ""
+"Nie można obliczyć wyników dla całości obserwacji"
+
+#: STATS_COXREGR.R:777
+msgid "Failed to create caseresults dataset."
+msgstr ""
+"Utworzenie zbioru danych caseresults nie powiodło się."
+
+#: STATS_COXREGR.R:809
+msgid "End of procedure"
+msgstr ""
+"Koniec procedury"
+
+#: STATS_COXREGR.R:836
+msgid "Message Number"
+msgstr ""
+"Numer komunikatu"
+
+
