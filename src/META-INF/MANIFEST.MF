@@ -3,7 +3,7 @@ Dialog-Specs: STATS_COXREGR.spd
 Command-Specs: STATS_COXREGR.xml
 Code-Files: STATS_COXREGR.R
 Misc-Files: extsyntax.css,markdown.html,IBMdialogicon.png
-Summary: Cox (proportional hazards) regression
+Summary: Cox (proportional hazards) regression 
 Description: This procedure calculates Cox regession.  It has some fea
  tures not available in the Statistics COXREG procedure.  It supports
  left and/or right censoring via a counting process model.  Time depen
