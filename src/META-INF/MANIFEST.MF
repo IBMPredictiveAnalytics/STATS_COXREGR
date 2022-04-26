@@ -10,7 +10,7 @@ Description: This procedure calculates Cox regession.  It has some fea
  dent variables are supported via either a formula or multiple observa
  tions per subject.
 Author: JKP, IBM SPSS
-Version: 1.0.5
+Version: 1.0.6
 Product-Version: 18
 Date: 1/13/14
 Categories: spss statistics survival cox
