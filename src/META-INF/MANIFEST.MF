@@ -1,18 +1,20 @@
 Name: STATS COXREGR
+Display-Name: Cox Regression
 Dialog-Specs: STATS_COXREGR.spd
 Command-Specs: STATS_COXREGR.xml
 Code-Files: STATS_COXREGR.R
-Misc-Files: extsyntax.css,markdown.html,IBMdialogicon.png
+Misc-Files: extsyntax.css,IBMdialogicon.png,LICENSE,markdown.html
 Summary: Cox (proportional hazards) regression
 Description: This procedure calculates Cox regession.  It has some fea
  tures not available in the Statistics COXREG procedure.  It supports
  left and/or right censoring via a counting process model.  Time depen
  dent variables are supported via either a formula or multiple observa
- tions per subject.
+ tions per subject.  Sampling or replication weights are supported.
 Author: JKP, IBM SPSS
 Version: 1.0.7
 Product-Version: 18
 Date: 1/13/14
+Product-Version-Maximum: 99
 Categories: spss statistics survival cox
 Plugins: R
 R-Packages: survival
